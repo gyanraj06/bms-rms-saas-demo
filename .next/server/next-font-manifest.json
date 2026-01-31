@@ -1,0 +1,91 @@
+{
+  "app": {
+    "[project]/Desktop/Codes/saas-bms/app/(auth)/login/page": [
+      "static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2",
+      "static/media/e4505858a30c79c2-s.p.0f58a291.woff2"
+    ],
+    "[project]/Desktop/Codes/saas-bms/app/_not-found/page": [
+      "static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2",
+      "static/media/e4505858a30c79c2-s.p.0f58a291.woff2"
+    ],
+    "[project]/Desktop/Codes/saas-bms/app/dashboard/bookings/page": [
+      "static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2",
+      "static/media/e4505858a30c79c2-s.p.0f58a291.woff2"
+    ],
+    "[project]/Desktop/Codes/saas-bms/app/dashboard/calendar/page": [
+      "static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2",
+      "static/media/e4505858a30c79c2-s.p.0f58a291.woff2"
+    ],
+    "[project]/Desktop/Codes/saas-bms/app/dashboard/guests/page": [
+      "static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2",
+      "static/media/e4505858a30c79c2-s.p.0f58a291.woff2"
+    ],
+    "[project]/Desktop/Codes/saas-bms/app/dashboard/page": [
+      "static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2",
+      "static/media/e4505858a30c79c2-s.p.0f58a291.woff2"
+    ],
+    "[project]/Desktop/Codes/saas-bms/app/dashboard/payments/page": [
+      "static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2",
+      "static/media/e4505858a30c79c2-s.p.0f58a291.woff2"
+    ],
+    "[project]/Desktop/Codes/saas-bms/app/dashboard/rooms/page": [
+      "static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2",
+      "static/media/e4505858a30c79c2-s.p.0f58a291.woff2"
+    ],
+    "[project]/Desktop/Codes/saas-bms/app/dashboard/settings/page": [
+      "static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2",
+      "static/media/e4505858a30c79c2-s.p.0f58a291.woff2"
+    ],
+    "[project]/Desktop/Codes/saas-bms/app/dashboard/staffs/page": [
+      "static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2",
+      "static/media/e4505858a30c79c2-s.p.0f58a291.woff2"
+    ],
+    "[project]/Desktop/Codes/saas-bms/app/page": [
+      "static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2",
+      "static/media/e4505858a30c79c2-s.p.0f58a291.woff2"
+    ],
+    "[project]/Desktop/Codes/saas-bms/app/restaurant/inventory/page": [
+      "static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2",
+      "static/media/e4505858a30c79c2-s.p.0f58a291.woff2"
+    ],
+    "[project]/Desktop/Codes/saas-bms/app/restaurant/kitchen/page": [
+      "static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2",
+      "static/media/e4505858a30c79c2-s.p.0f58a291.woff2"
+    ],
+    "[project]/Desktop/Codes/saas-bms/app/restaurant/menu/page": [
+      "static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2",
+      "static/media/e4505858a30c79c2-s.p.0f58a291.woff2"
+    ],
+    "[project]/Desktop/Codes/saas-bms/app/restaurant/orders/page": [
+      "static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2",
+      "static/media/e4505858a30c79c2-s.p.0f58a291.woff2"
+    ],
+    "[project]/Desktop/Codes/saas-bms/app/restaurant/page": [
+      "static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2",
+      "static/media/e4505858a30c79c2-s.p.0f58a291.woff2"
+    ],
+    "[project]/Desktop/Codes/saas-bms/app/restaurant/pos/page": [
+      "static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2",
+      "static/media/e4505858a30c79c2-s.p.0f58a291.woff2"
+    ],
+    "[project]/Desktop/Codes/saas-bms/app/restaurant/reports/page": [
+      "static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2",
+      "static/media/e4505858a30c79c2-s.p.0f58a291.woff2"
+    ],
+    "[project]/Desktop/Codes/saas-bms/app/restaurant/settings/page": [
+      "static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2",
+      "static/media/e4505858a30c79c2-s.p.0f58a291.woff2"
+    ],
+    "[project]/Desktop/Codes/saas-bms/app/restaurant/staffs/page": [
+      "static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2",
+      "static/media/e4505858a30c79c2-s.p.0f58a291.woff2"
+    ],
+    "[project]/Desktop/Codes/saas-bms/app/restaurant/tables/page": [
+      "static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2",
+      "static/media/e4505858a30c79c2-s.p.0f58a291.woff2"
+    ]
+  },
+  "appUsingSizeAdjust": true,
+  "pages": {},
+  "pagesUsingSizeAdjust": false
+}

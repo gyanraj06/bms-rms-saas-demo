@@ -1,0 +1,14 @@
+__turbopack_load_page_chunks__("/_error", [
+  "static/chunks/fd563_next_dist_compiled_next-devtools_index_ecd7aa55.js",
+  "static/chunks/fd563_next_dist_compiled_a318f682._.js",
+  "static/chunks/fd563_next_dist_shared_lib_2804a719._.js",
+  "static/chunks/fd563_next_dist_client_3ff17146._.js",
+  "static/chunks/fd563_next_dist_6dca7d66._.js",
+  "static/chunks/fd563_next_error_29275359.js",
+  "static/chunks/[next]_entry_page-loader_ts_5f63d933._.js",
+  "static/chunks/fd563_react-dom_95cb86fb._.js",
+  "static/chunks/fd563_9b0e1a03._.js",
+  "static/chunks/[root-of-the-server]__8ba23001._.js",
+  "static/chunks/Desktop_Codes_saas-bms_pages__error_2da965e7._.js",
+  "static/chunks/turbopack-Desktop_Codes_saas-bms_pages__error_44142d6e._.js"
+])
