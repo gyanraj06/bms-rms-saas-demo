@@ -71,14 +71,7 @@ export interface Room {
 }
 
 // Amenity icons mapping
-export const AMENITY_ICONS: Record<string, React.ElementType> = {
-    "WiFi": Wifi,
-    "AC": AirVent,
-    "TV": Tv,
-    "Parking": Car,
-    "Coffee Maker": Coffee,
-    "Bathtub": Bath,
-};
+
 
 // Room type colors
 const ROOM_TYPE_COLORS: Record<Room["type"], string> = {

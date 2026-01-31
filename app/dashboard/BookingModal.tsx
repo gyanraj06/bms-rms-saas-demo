@@ -4,7 +4,13 @@ import { useState } from "react"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
-import { Select } from "@/components/ui/select"
+import {
+    Select,
+    SelectTrigger,
+    SelectValue,
+    SelectContent,
+    SelectItem,
+} from "@/components/ui/select"
 import {
     Dialog,
     DialogContent,
@@ -70,10 +76,15 @@ export function BookingModal({ open, onOpenChange }: BookingModalProps) {
                         </div>
                         <div className="grid gap-2">
                             <Label htmlFor="roomType">Room Type</Label>
-                            <Select id="roomType">
-                                <option value="standard">Standard King</option>
-                                <option value="deluxe">Deluxe Suite</option>
-                                <option value="family">Family Room</option>
+                            <Select>
+                                <SelectTrigger id="roomType">
+                                    <SelectValue placeholder="Select type" />
+                                </SelectTrigger>
+                                <SelectContent>
+                                    <SelectItem value="standard">Standard King</SelectItem>
+                                    <SelectItem value="deluxe">Deluxe Suite</SelectItem>
+                                    <SelectItem value="family">Family Room</SelectItem>
+                                </SelectContent>
                             </Select>
                         </div>
                     </div>

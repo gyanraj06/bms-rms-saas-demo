@@ -1,1 +1,173 @@
-{"version":3,"caseSensitive":false,"basePath":"","rewrites":{"beforeFiles":[],"afterFiles":[],"fallback":[]},"redirects":[{"source":"/:path+/","destination":"/:path+","permanent":true,"internal":true,"regex":"^(?:\\/((?:[^\\/]+?)(?:\\/(?:[^\\/]+?))*))\\/$"}],"headers":[]}
+{
+  "version": 3,
+  "pages404": true,
+  "caseSensitive": false,
+  "basePath": "",
+  "redirects": [
+    {
+      "source": "/:path+/",
+      "destination": "/:path+",
+      "internal": true,
+      "statusCode": 308,
+      "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$"
+    }
+  ],
+  "headers": [],
+  "rewrites": {
+    "beforeFiles": [],
+    "afterFiles": [],
+    "fallback": []
+  },
+  "dynamicRoutes": [],
+  "staticRoutes": [
+    {
+      "page": "/",
+      "regex": "^/(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/(?:/)?$"
+    },
+    {
+      "page": "/_not-found",
+      "regex": "^/_not\\-found(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_not\\-found(?:/)?$"
+    },
+    {
+      "page": "/dashboard",
+      "regex": "^/dashboard(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard(?:/)?$"
+    },
+    {
+      "page": "/dashboard/bookings",
+      "regex": "^/dashboard/bookings(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/bookings(?:/)?$"
+    },
+    {
+      "page": "/dashboard/calendar",
+      "regex": "^/dashboard/calendar(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/calendar(?:/)?$"
+    },
+    {
+      "page": "/dashboard/guests",
+      "regex": "^/dashboard/guests(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/guests(?:/)?$"
+    },
+    {
+      "page": "/dashboard/payments",
+      "regex": "^/dashboard/payments(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/payments(?:/)?$"
+    },
+    {
+      "page": "/dashboard/rooms",
+      "regex": "^/dashboard/rooms(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/rooms(?:/)?$"
+    },
+    {
+      "page": "/dashboard/settings",
+      "regex": "^/dashboard/settings(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/settings(?:/)?$"
+    },
+    {
+      "page": "/dashboard/staffs",
+      "regex": "^/dashboard/staffs(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/staffs(?:/)?$"
+    },
+    {
+      "page": "/login",
+      "regex": "^/login(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/login(?:/)?$"
+    },
+    {
+      "page": "/restaurant",
+      "regex": "^/restaurant(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/restaurant(?:/)?$"
+    },
+    {
+      "page": "/restaurant/inventory",
+      "regex": "^/restaurant/inventory(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/restaurant/inventory(?:/)?$"
+    },
+    {
+      "page": "/restaurant/kitchen",
+      "regex": "^/restaurant/kitchen(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/restaurant/kitchen(?:/)?$"
+    },
+    {
+      "page": "/restaurant/menu",
+      "regex": "^/restaurant/menu(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/restaurant/menu(?:/)?$"
+    },
+    {
+      "page": "/restaurant/orders",
+      "regex": "^/restaurant/orders(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/restaurant/orders(?:/)?$"
+    },
+    {
+      "page": "/restaurant/pos",
+      "regex": "^/restaurant/pos(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/restaurant/pos(?:/)?$"
+    },
+    {
+      "page": "/restaurant/reports",
+      "regex": "^/restaurant/reports(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/restaurant/reports(?:/)?$"
+    },
+    {
+      "page": "/restaurant/settings",
+      "regex": "^/restaurant/settings(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/restaurant/settings(?:/)?$"
+    },
+    {
+      "page": "/restaurant/staffs",
+      "regex": "^/restaurant/staffs(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/restaurant/staffs(?:/)?$"
+    },
+    {
+      "page": "/restaurant/tables",
+      "regex": "^/restaurant/tables(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/restaurant/tables(?:/)?$"
+    },
+    {
+      "page": "/signup",
+      "regex": "^/signup(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/signup(?:/)?$"
+    }
+  ],
+  "dataRoutes": [],
+  "rsc": {
+    "header": "rsc",
+    "varyHeader": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+    "prefetchHeader": "next-router-prefetch",
+    "didPostponeHeader": "x-nextjs-postponed",
+    "contentTypeHeader": "text/x-component",
+    "suffix": ".rsc",
+    "prefetchSuffix": ".prefetch.rsc",
+    "prefetchSegmentHeader": "next-router-segment-prefetch",
+    "prefetchSegmentSuffix": ".segment.rsc",
+    "prefetchSegmentDirSuffix": ".segments"
+  },
+  "rewriteHeaders": {
+    "pathHeader": "x-nextjs-rewritten-path",
+    "queryHeader": "x-nextjs-rewritten-query"
+  }
+}
