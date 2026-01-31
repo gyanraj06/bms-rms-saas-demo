@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, Suspense } from "react";
 import { useSearchParams } from "next/navigation";
 import { cn } from "@/lib/utils";
 import { NewBookingForm } from "@/components/hotel/NewBookingForm";
@@ -189,7 +189,7 @@ const SAMPLE_BOOKINGS: Booking[] = [
     },
 ];
 
-export default function BookingsPage() {
+function BookingsContent() {
     const searchParams = useSearchParams();
     const [activeTab, setActiveTab] = useState(() => {
         const tab = searchParams.get("tab");
@@ -279,5 +279,13 @@ export default function BookingsPage() {
                 <NewBookingForm onSubmit={handleNewBooking} />
             )}
         </div>
+    );
+}
+
+export default function BookingsPage() {
+    return (
+        <Suspense fallback={<div>Loading...</div>}>
+            <BookingsContent />
+        </Suspense>
     );
 }
